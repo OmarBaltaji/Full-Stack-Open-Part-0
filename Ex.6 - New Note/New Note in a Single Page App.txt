@@ -1,0 +1,13 @@
+title New Note in a Single Page App
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: {"message":"note created"}
+
+note over browser:
+in the spa.js file, the event handler
+that gets triggered on form submission
+sends the new note to the server
+and then renders it in the browser
+along the other notes without
+redirecting.
+end note
